@@ -1,43 +1,1127 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+  
+    <title>Main demo</title>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+    <link rel="alternate" type="application/rss+xml" title="Main demo » Feed"
+      href="https://cakeciouswp.bolvosites.com/demo1/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Main demo » Comments Feed"
+      href="https://cakeciouswp.bolvosites.com/demo1/comments/feed/">
+    <script type="text/javascript">
+      window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/cakeciouswp.bolvosites.com\/demo1\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.3" } };
+      /*! This file is auto-generated */
+      !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { p.clearRect(0, 0, i.width, i.height), p.fillText(e, 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(t, 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !s("\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff") }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <script src="js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+    <style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="wc-blocks-vendors-style-css" href="css/wc-blocks-vendors-style.css" type="text/css"
+      media="all">
+    <link rel="stylesheet" id="wc-blocks-style-css" href="css/wc-blocks-style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="classic-theme-styles-css" href="css/classic-themes.min.css" type="text/css" media="all">
+    <style id="global-styles-inline-css" type="text/css">
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+        --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+        --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+        --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+        --wp--preset--duotone--dark-grayscale: url('demo1.html#wp-duotone-dark-grayscale');
+        --wp--preset--duotone--grayscale: url('demo1.html#wp-duotone-grayscale');
+        --wp--preset--duotone--purple-yellow: url('demo1.html#wp-duotone-purple-yellow');
+        --wp--preset--duotone--blue-red: url('demo1.html#wp-duotone-blue-red');
+        --wp--preset--duotone--midnight: url('demo1.html#wp-duotone-midnight');
+        --wp--preset--duotone--magenta-yellow: url('demo1.html#wp-duotone-magenta-yellow');
+        --wp--preset--duotone--purple-green: url('demo1.html#wp-duotone-purple-green');
+        --wp--preset--duotone--blue-orange: url('demo1.html#wp-duotone-blue-orange');
+        --wp--preset--font-size--small: 0px;
+        --wp--preset--font-size--medium: 0px;
+        --wp--preset--font-size--large: 0px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--font-size--regular: 0px;
+        --wp--preset--font-size--huge: 0px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+  
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+  
+      body .is-layout-flow>.alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+  
+      body .is-layout-flow>.alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+  
+      body .is-layout-flow>.aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+  
+      body .is-layout-constrained>.alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+  
+      body .is-layout-constrained>.alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+  
+      body .is-layout-constrained>.aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+  
+      body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+  
+      body .is-layout-constrained>.alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+  
+      body .is-layout-flex {
+        display: flex;
+      }
+  
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+  
+      body .is-layout-flex>* {
+        margin: 0;
+      }
+  
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+  
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+  
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+  
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+  
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+  
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+  
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+  
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+  
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+  
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+  
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+  
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+  
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+  
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+  
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+  
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+  
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+  
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+  
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+  
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+  
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+  
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+  
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+  
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+  
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+  
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+  
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+  
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+  
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+  
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+  
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+  
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+  
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+  
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+  
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+  
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+  
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+  
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+      }
+  
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+      }
+  
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+      }
+  
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+      }
+  
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+      }
+  
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+      }
+  
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+  
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+  
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+  
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+  
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+  
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+  
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+  
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+  
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+  
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+  
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+  
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+  
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link rel="stylesheet" id="contact-form-7-css" href="css/styles.css" type="text/css" media="all">
+    <style id="woocommerce-inline-inline-css" type="text/css">
+      .woocommerce form .form-row .required {
+        visibility: visible;
+      }
+    </style>
+    <link rel="stylesheet" id="font-awesome-css" href="css/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="linearicons-css" href="css/style_1.css" type="text/css" media="all">
+    <link rel="stylesheet" id="flaticon-css" href="css/flaticon.css" type="text/css" media="all">
+    <link rel="stylesheet" id="stroke-icon-css" href="css/style_2.css" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrapp-css" href="css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="owl-carousel-css" href="css/owl.carousel.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="magnific-popup-css" href="css/magnific-popup.css" type="text/css" media="all">
+    <link rel="stylesheet" id="lightbox-css" href="css/simpleLightbox.css" type="text/css" media="all">
+    <link rel="stylesheet" id="datetime-picker-css" href="css/bootstrap-datetimepicker.min.css" type="text/css"
+      media="all">
+    <link rel="stylesheet" id="animate-css" href="css/animate.css" type="text/css" media="all">
+    <link rel="stylesheet" id="cakecious-styles-css" href="css/themestyles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="cakecious-res-css" href="css/responsive.css" type="text/css" media="all">
+    <link rel="stylesheet" id="cakecious-style-css" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="cakecious-fonts-css"
+      href="https://fonts.googleapis.com/css?family=Lora%3A400%2C400i%7COpen+Sans%3A300%2C400%2C400i%2C600%2C600i%2C700%7CPlayfair+Display%3A400%2C400i%2C700%7CPoppins%3A400%2C400i%2C500%2C500i%2C600%2C600i%2C700&amp;subset=latin%2Clatin-ext"
+      type="text/css" media="all">
+    <link rel="stylesheet" id="cakecious-google-fonts-css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CPoppins%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&amp;subset=latin&amp;ver=5.0"
+      type="text/css" media="all">
+    <link rel="stylesheet" id="cakecious-css" href="css/main.min.css" type="text/css" media="all">
+    <style id="cakecious-inline-css" type="text/css">
+      /* Contact Form 7 compatibility CSS */
+      .wpcf7 input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]),
+      .wpcf7 textarea,
+      .wpcf7 select {
+        width: 100%
+      }
+  
+      /* Cakecious Dynamic CSS */
+      .cakecious-header-logo .cakecious-logo-image {
+        width: 170px
+      }
+  
+      .cakecious-header-mobile-logo .cakecious-logo-image {
+        width: 170px
+      }
+  
+      .cakecious-header-main-bar {
+        height: 85px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 17px
+      }
+  
+      .cakecious-header-main-bar .cakecious-header-column>* {
+        padding: 0 20px
+      }
+  
+      .cakecious-header-main-bar-row {
+        margin: 0 -20px
+      }
+  
+      .cakecious-header-main-bar .cakecious-header-menu .menu-item {
+        padding: 0 20px
+      }
+  
+      .cakecious-header-main-bar.cakecious-header-menu-highlight-background .cakecious-header-menu>.menu>.menu-item>.cakecious-menu-item-link,
+      .cakecious-header-main-bar.cakecious-header-menu-highlight-border-top .cakecious-header-menu>.menu>.menu-item>.cakecious-menu-item-link,
+      .cakecious-header-main-bar.cakecious-header-menu-highlight-border-bottom .cakecious-header-menu>.menu>.menu-item>.cakecious-menu-item-link {
+        padding: 0 20px
+      }
+  
+      .cakecious-header-main-bar.cakecious-header-menu-highlight-none .cakecious-header-menu>.menu>.menu-item>.sub-menu,
+      .cakecious-header-main-bar.cakecious-header-menu-highlight-underline .cakecious-header-menu>.menu>.menu-item>.sub-menu {
+        margin-left: -20px
+      }
+  
+      .cakecious-header-main-bar .menu>.menu-item .sub-menu .menu-item>.cakecious-menu-item-link {
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: .7px
+      }
+  
+      .cakecious-header-main-bar .current-menu-item>.cakecious-menu-item-link,
+      .cakecious-header-main-bar .current-menu-ancestor>.cakecious-menu-item-link {
+        color: #f295b2
+      }
+  
+      .cakecious-header-main-bar .menu>.menu-item .sub-menu .current-menu-item>.cakecious-menu-item-link,
+      .cakecious-header-main-bar .menu>.menu-item .sub-menu .current-menu-ancestor>.cakecious-menu-item-link {
+        color: #333
+      }
+  
+      .cakecious-header-main-bar .menu>.menu-item .sub-menu {
+        background-color: #f295b2;
+        border-color: #f295b2;
+        color: #fff
+      }
+  
+      .cakecious-header-main-bar .menu>.menu-item .sub-menu a:not(.button) {
+        color: #fff
+      }
+  
+      .cakecious-header-main-bar .menu>.menu-item .sub-menu a:not(.button):hover,
+      .cakecious-header-main-bar .menu>.menu-item .sub-menu a:not(.button):focus {
+        color: #333
+      }
+  
+      .cakecious-header-top-bar {
+        height: 50px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        color: #fff
+      }
+  
+      .cakecious-header-top-bar .cakecious-header-column>* {
+        padding: 0 10px
+      }
+  
+      .cakecious-header-top-bar-row {
+        margin: 0 -10px
+      }
+  
+      .cakecious-header-top-bar .cakecious-header-menu .menu-item {
+        padding: 0 10px
+      }
+  
+      .cakecious-header-top-bar.cakecious-header-menu-highlight-background .cakecious-header-menu>.menu>.menu-item>.cakecious-menu-item-link,
+      .cakecious-header-top-bar.cakecious-header-menu-highlight-border-top .cakecious-header-menu>.menu>.menu-item>.cakecious-menu-item-link,
+      .cakecious-header-top-bar.cakecious-header-menu-highlight-border-bottom .cakecious-header-menu>.menu>.menu-item>.cakecious-menu-item-link {
+        padding: 0 10px
+      }
+  
+      .cakecious-header-top-bar.cakecious-header-menu-highlight-none .cakecious-header-menu>.menu>.menu-item>.sub-menu,
+      .cakecious-header-top-bar.cakecious-header-menu-highlight-underline .cakecious-header-menu>.menu>.menu-item>.sub-menu {
+        margin-left: -10px
+      }
+  
+      .cakecious-header-top-bar .cakecious-menu-icon {
+        font-size: 16px
+      }
+  
+      .cakecious-header-top-bar-inner {
+        background-color: #f295b2
+      }
+  
+      .cakecious-header-top-bar .menu>.menu-item .sub-menu {
+        background-color: #fff;
+        color: #fff
+      }
+  
+      .cakecious-header-top-bar a:not(.button),
+      .cakecious-header-top-bar .cakecious-toggle,
+      .cakecious-header-top-bar .menu>.menu-item .sub-menu a:not(.button) {
+        color: #fff
+      }
+  
+      .cakecious-header-top-bar a:not(.button):hover,
+      .cakecious-header-top-bar a:not(.button):focus,
+      .cakecious-header-top-bar .cakecious-toggle:hover,
+      .cakecious-header-top-bar .cakecious-toggle:focus,
+      .cakecious-header-top-bar .menu>.menu-item .sub-menu a:not(.button):hover,
+      .cakecious-header-top-bar .menu>.menu-item .sub-menu a:not(.button):focus {
+        color: #fff
+      }
+  
+      .cakecious-header-top-bar .current-menu-item>.cakecious-menu-item-link,
+      .cakecious-header-top-bar .current-menu-ancestor>.cakecious-menu-item-link {
+        color: #fff
+      }
+  
+      .cakecious-header-top-bar .menu>.menu-item .sub-menu .current-menu-item>.cakecious-menu-item-link,
+      .cakecious-header-top-bar .menu>.menu-item .sub-menu .current-menu-ancestor>.cakecious-menu-item-link {
+        color: #fff
+      }
+  
+      .cakecious-header-mobile-main-bar {
+        height: 85px
+      }
+  
+      .cakecious-header-mobile-main-bar .cakecious-menu-icon {
+        font-size: 22px
+      }
+  
+      .cakecious-header-mobile-vertical-bar {
+        background-color: #f295b2;
+        color: #fff
+      }
+  
+      .cakecious-header-mobile-vertical-bar a:not(.button),
+      .cakecious-header-mobile-vertical-bar .cakecious-toggle,
+      .cakecious-header-mobile-vertical-bar .menu .sub-menu a:not(.button),
+      .cakecious-header-mobile-vertical-bar .menu .sub-menu .cakecious-toggle {
+        color: #fff
+      }
+  
+      .cakecious-header-mobile-vertical-bar a:not(.button):hover,
+      .cakecious-header-mobile-vertical-bar a:not(.button):focus,
+      .cakecious-header-mobile-vertical-bar .cakecious-toggle:hover,
+      .cakecious-header-mobile-vertical-bar .cakecious-toggle:focus,
+      .cakecious-header-mobile-vertical-bar .menu .sub-menu a:not(.button):hover,
+      .cakecious-header-mobile-vertical-bar .menu .sub-menu a:not(.button):focus,
+      .cakecious-header-mobile-vertical-bar .menu .sub-menu .cakecious-toggle:hover,
+      .cakecious-header-mobile-vertical-bar .menu .sub-menu .cakecious-toggle:focus {
+        color: #333
+      }
+  
+      .cakecious-header-mobile-vertical-bar .current-menu-item>.cakecious-menu-item-link,
+      .cakecious-header-mobile-vertical-bar .current-menu-ancestor>.cakecious-menu-item-link {
+        color: #333
+      }
+  
+      .cakecious-hero-inner {
+        padding: 60px 20px 50px 20px;
+        background-color: #f295b2
+      }
+  
+      .cakecious-hero {
+        color: #fff
+      }
+  
+      .cakecious-hero-inner:before {
+        background-color: rgba(242, 149, 178, 0.81)
+      }
+  
+      .cakecious-footer-widgets-bar-inner {
+        padding: 80px 20px 60px 20px;
+        background-color: #303339
+      }
+  
+      .cakecious-footer-widgets-bar {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #797979
+      }
+  
+      .cakecious-footer-widgets-bar .widget-title {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        color: #fff
+      }
+  
+      .cakecious-footer-widgets-bar a:not(.button) {
+        color: #797979
+      }
+  
+      .cakecious-footer-widgets-bar a:not(.button):hover,
+      .cakecious-footer-widgets-bar a:not(.button):focus {
+        color: #fff
+      }
+  
+      .cakecious-footer-bottom-bar-inner {
+        padding: 30px 20px 30px 20px;
+        background-color: #303339
+      }
+  
+      .cakecious-footer-bottom-bar {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #797979
+      }
+  
+      .cakecious-footer-bottom-bar a:not(.button) {
+        color: rgba(242, 149, 178, 0.49)
+      }
+  
+      .cakecious-footer-bottom-bar a:not(.button):hover,
+      .cakecious-footer-bottom-bar a:not(.button):focus {
+        color: #fff
+      }
+  
+      /* Current Page Layout CSS */
+      .cakecious-hero-inner {
+        background-image: url(images/slider-7.jpg)
+      }
+    </style>
+    <link rel="stylesheet" id="cakecious-woocommerce-css" href="css/woocommerce.min.css" type="text/css" media="all">
+    <style id="cakecious-woocommerce-inline-css" type="text/css">
+      /* Cakecious + WooCommerce Dynamic CSS */
+      .cakecious-footer-widgets-bar .woocommerce.widget_price_filter .price_slider {
+        color: #797979
+      }
+    </style>
+    <link rel="stylesheet" id="cakecious-features-css" href="css/pro.min.css" type="text/css" media="all">
+    <style id="cakecious-features-inline-css" type="text/css">
+      /* Cakecious Pro Dynamic CSS */
+      .cakecious-header-main .cakecious-header-sticky.cakecious-sticky-in-view .cakecious-section-inner {
+        box-shadow: 0 rgba(0, 0, 0, 0)
+      }
+    </style>
+    <link rel="stylesheet" id="cakecious-pro-woocommerce-css" href="css/pro-woocommerce.min.css" type="text/css"
+      media="all">
+    <link rel="stylesheet" id="js_composer_front-css" href="css/js_composer.min.css" type="text/css" media="all">
+    <script type="text/template" id="tmpl-variation-template">
+  	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+  	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+  	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+  </script>
+    <script type="text/template" id="tmpl-unavailable-variation-template">
+  	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+  </script>
+    <script type="text/javascript" src="js/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="js/rbtools.min.js" async="" id="tp-tools-js"></script>
+    <script type="text/javascript" src="js/rs6.min.js" async="" id="revmin-js"></script>
+    <script type="text/javascript" src="js/jquery.blockUI.min.js" id="jquery-blockui-js"></script>
+    <script type="text/javascript" id="wc-add-to-cart-js-extra">
+      /* <![CDATA[ */
+      var wc_add_to_cart_params = { "ajax_url": "\/demo1\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/demo1\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/cakeciouswp.bolvosites.com\/demo1\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/add-to-cart.min.js" id="wc-add-to-cart-js"></script>
+    <script type="text/javascript" src="js/woocommerce-add-to-cart.js" id="vc_woocommerce-add-to-cart-js-js"></script>
+    <link rel="https://api.w.org/" href="https://cakeciouswp.bolvosites.com/demo1/wp-json/">
+    <link rel="alternate" type="application/json"
+      href="https://cakeciouswp.bolvosites.com/demo1/wp-json/wp/v2/pages/2687">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD"
+      href="https://cakeciouswp.bolvosites.com/demo1/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+      href="https://cakeciouswp.bolvosites.com/demo1/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 6.2.3">
+    <meta name="generator" content="WooCommerce 7.8.1">
+    <link rel="canonical" href="https://cakeciouswp.bolvosites.com/demo1/">
+    <link rel="shortlink" href="https://cakeciouswp.bolvosites.com/demo1/">
+    <link rel="alternate" type="application/json+oembed"
+      href="https://cakeciouswp.bolvosites.com/demo1/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcakeciouswp.bolvosites.com%2Fdemo1%2F">
+    <link rel="alternate" type="text/xml+oembed"
+      href="https://cakeciouswp.bolvosites.com/demo1/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcakeciouswp.bolvosites.com%2Fdemo1%2F&amp;format=xml">
+    <noscript>
+      <style>
+        .woocommerce-product-gallery {
+          opacity: 1 !important;
+        }
+      </style>
+    </noscript>
+    <style type="text/css" id="cakecious-custom-css">
+  
+    </style>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+    <meta name="generator"
+      content="Powered by Slider Revolution 6.5.21 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+    <link rel="icon" href="images/cropped-arivals-pic-32x32.jpg" sizes="32x32">
+    <link rel="icon" href="images/cropped-arivals-pic-192x192.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" href="images/cropped-arivals-pic-180x180.jpg">
+    <meta name="msapplication-TileImage"
+      content="https://cakeciouswp.bolvosites.com/demo1/wp-content/uploads/sites/14/2018/06/cropped-arivals-pic-270x270.jpg">
+    <script>function setREVStartSize(e) {
+        //window.requestAnimationFrame(function() {
+        window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+        window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+        try {
+          var pw = document.getElementById(e.c).parentNode.offsetWidth,
+            newh;
+          pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
+          e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+          e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+          e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+          e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+          e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+          e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+          e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+          if (e.layout === "fullscreen" || e.l === "fullscreen")
+            newh = Math.max(e.mh, window.RSIH);
+          else {
+            e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+            for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+            e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+            e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+            for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+            var nl = new Array(e.rl.length),
+              ix = 0,
+              sl;
+            e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+            e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+            e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+            e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+            for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+            sl = nl[0];
+            for (var i in nl) if (sl > nl[i] && nl[i] > 0) { sl = nl[i]; ix = i; }
+            var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+            newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+          }
+          var el = document.getElementById(e.c);
+          if (el !== null && el) el.style.height = newh + "px";
+          el = document.getElementById(e.c + "_wrapper");
+          if (el !== null && el) {
+            el.style.height = newh + "px";
+            el.style.display = "block";
+          }
+        } catch (e) {
+          console.log("Failure at Presize of Slider:" + e)
+        }
+        //});
+      };</script>
+    <style type="text/css" id="wp-custom-css">
+      #cakecious-header-main-bar:before {
+        content: "";
+        background: url(images/menu-draw.png) repeat-x scroll center center;
+        height: 19px;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        bottom: -13px;
+        z-index: 30;
+      }
+  
+      .cakecious-header-top-bar:after {
+        content: "";
+        width: 100%;
+        border-bottom: 1px dashed #f5b5c9;
+        position: absolute;
+        left: 0px;
+        bottom: 4px;
+      }
+  
+      .cakecious-header-search-dropdown:before {
+        content: "";
+        width: 1px;
+        height: 20px;
+        background: #f8cad9;
+        position: absolute;
+        left: 2px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+      .vc_custom_1530526247698 {
+        padding-bottom: 38px !important;
+      }
+  
+      .vc_custom_1530955768122 {
+        padding-bottom: 0px !important;
+      }
+  
+      .vc_custom_1529151875982 {
+        margin-bottom: 0px !important;
+      }
+  
+      .vc_custom_1530102247053 {
+        margin-bottom: 0px !important;
+      }
+    </style><noscript>
+      <style>
+        .wpb_animate_when_almost_visible {
+          opacity: 1;
+        }
+      </style>
+    </noscript>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+   
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+
+
+    <script data-cfasync="false" src="js/email-decode.min.js"></script>
+    <script>
+      window.RS_MODULES = window.RS_MODULES || {};
+      window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+      window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+      window.RS_MODULES.defered = false;
+      window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+      window.RS_MODULES.type = 'compiled';
+    </script>
+    <script type="text/html" id="wpb-modifications"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:600%2C700%7COpen+Sans:italic%2C600%2C700%2C600italic%2C700italic%7CRoboto:600%2C400&amp;display=swap"
+      rel="stylesheet" property="stylesheet" media="all" type="text/css">
+    
+    <script type="text/javascript">
+      (function () {
+        var c = document.body.className;
+        c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+        document.body.className = c;
+      })();
+    </script>
+    <script>
+      if (typeof revslider_showDoubleJqueryError === "undefined") { function revslider_showDoubleJqueryError(sliderID) { console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion."); console.log("To fix this, you can:"); console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"); console.log("2. Find the double jQuery.js inclusion and remove it"); return "Double Included jQuery Library"; } }
+    </script>
+    <link rel="preload" as="font" id="rs-icon-set-revicon-woff"
+      href="https://cakeciouswp.bolvosites.com/demo1/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888"
+      type="font/woff" crossorigin="anonymous" media="all">
+    <link rel="stylesheet" id="rs-plugin-settings-css" href="css/rs6.css" type="text/css" media="all">
+    <style id="rs-plugin-settings-inline-css" type="text/css">
+      #rev_slider_2_1_wrapper .zeus.tparrows {
+        cursor: pointer;
+        min-width: 70px;
+        min-height: 70px;
+        position: absolute;
+        display: block;
+        z-index: 1000;
+        border-radius: 50%;
+        overflow: hidden;
+        background: rgba(0, 0, 0, 0.1)
+      }
+    
+      #rev_slider_2_1_wrapper .zeus.tparrows:before {
+        font-family: 'revicons';
+        font-size: 20px;
+        color: #ffffff;
+        display: block;
+        line-height: 70px;
+        text-align: center;
+        z-index: 2;
+        position: relative
+      }
+    
+      #rev_slider_2_1_wrapper .zeus.tparrows.tp-leftarrow:before {
+        content: '\e824'
+      }
+    
+      #rev_slider_2_1_wrapper .zeus.tparrows.tp-rightarrow:before {
+        content: '\e825'
+      }
+    
+      #rev_slider_2_1_wrapper .zeus .tp-title-wrap {
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        opacity: 0;
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        border-radius: 50%
+      }
+    
+      #rev_slider_2_1_wrapper .zeus .tp-arr-imgholder {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 50%;
+        transform: translatex(-100%);
+        -webkit-transform: translatex(-100%);
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s
+      }
+    
+      #rev_slider_2_1_wrapper .zeus.tp-rightarrow .tp-arr-imgholder {
+        transform: translatex(100%);
+        -webkit-transform: translatex(100%)
+      }
+    
+      #rev_slider_2_1_wrapper .zeus.tparrows.rs-touchhover .tp-arr-imgholder {
+        transform: translatex(0);
+        -webkit-transform: translatex(0);
+        opacity: 1
+      }
+    
+      #rev_slider_2_1_wrapper .zeus.tparrows.rs-touchhover .tp-title-wrap {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        opacity: 1
+      }
+    </style>
+    <script type="text/javascript" src="js/index_1.js" id="swv-js"></script>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+      /* <![CDATA[ */
+      var wpcf7 = { "api": { "root": "https:\/\/cakeciouswp.bolvosites.com\/demo1\/wp-json\/", "namespace": "contact-form-7\/v1" } };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/index.js" id="contact-form-7-js"></script>
+    <script type="text/javascript" src="js/js.cookie.min.js" id="js-cookie-js"></script>
+    <script type="text/javascript" id="woocommerce-js-extra">
+      /* <![CDATA[ */
+      var woocommerce_params = { "ajax_url": "\/demo1\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/demo1\/?wc-ajax=%%endpoint%%" };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/woocommerce.min.js" id="woocommerce-js"></script>
+    <script type="text/javascript" id="woocommerce-js-after">
+      (function () {
+        'use strict';
+
+        var handleWooCommerceQuantityIncrementButtons = function (e) {
+          // Only handle "cakecious-qty-increment" button.
+          if (e.target.classList.contains('cakecious-qty-increment')) {
+            // Prevent default handlers on click and touch event.
+            if ('click' === e.type || 'touchend' === e.type) {
+              e.preventDefault();
+            }
+
+            // Abort if keydown is not enter or space key.
+            else if ('keydown' === e.type && 13 !== e.which && 32 !== e.which) {
+              return;
+            }
+
+            var $button = e.target,
+              $input = $button.parentElement.querySelector('.qty'),
+              step = parseInt($input.getAttribute('step')),
+              min = parseInt($input.getAttribute('min')),
+              max = parseInt($input.getAttribute('max')),
+              sign = $button.classList.contains('cakecious-qty-minus') ? '-' : '+';
+
+            // Adjust the input value according to the clicked button.
+            if ('-' === sign) {
+              var newValue = parseInt($input.value) - step;
+
+              if (min && min > newValue) {
+                $input.value = parseInt(min);
+              } else {
+                $input.value = parseInt(newValue);
+              }
+            } else {
+              var newValue = parseInt($input.value) + step;
+
+              if (max && max < newValue) {
+                $input.value = parseInt(max);
+              } else {
+                $input.value = parseInt(newValue);
+              }
+            }
+
+            // Trigger "change" event on the input field (use old fashioned way for IE compatibility).
+            var event = document.createEvent('HTMLEvents');
+            event.initEvent('change', true, false);
+            $input.dispatchEvent(event);
+          }
+        };
+
+        document.body.addEventListener('click', handleWooCommerceQuantityIncrementButtons);
+        document.body.addEventListener('touchend', handleWooCommerceQuantityIncrementButtons);
+        document.body.addEventListener('keydown', handleWooCommerceQuantityIncrementButtons);
+      })();
+
+    </script>
+    <script type="text/javascript" src="js/owl.carousel.min.js" id="owl-carousel-js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js" id="magnific-popup-js"></script>
+    <script type="text/javascript" src="js/simpleLightbox.min.js" id="simple-lightbox-js"></script>
+    <script type="text/javascript" src="js/moment.min.js" id="moment-js"></script>
+    <script type="text/javascript" id="moment-js-after">
+      moment.updateLocale('en_US', { "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "weekdaysShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "week": { "dow": 1 }, "longDateFormat": { "LT": "g:i a", "LTS": null, "L": null, "LL": "F j, Y", "LLL": "F j, Y g:i a", "LLLL": null } });
+    </script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js" id="datetime-picker-js"></script>
+    <script type="text/javascript" src="js/imagesloaded.min.js" id="imagesloaded-js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js" id="isotope-js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js" id="waypoints-js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.min.js" id="scrollto-js"></script>
+    <script type="text/javascript" src="js/theme.js" id="cakecious-default-js"></script>
+    <script type="text/javascript" id="cakecious-js-extra">
+      /* <![CDATA[ */
+      var cakeciousConfig = { "breakpoints": { "mobile": 500, "tablet": 768, "desktop": 1024 } };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/main.min.js" id="cakecious-js"></script>
+    <script type="text/javascript" id="cakecious-features-js-extra">
+      /* <![CDATA[ */
+      var cakeciousProConfig = { "ajaxURL": "https:\/\/cakeciouswp.bolvosites.com\/demo1\/wp-admin\/admin-ajax.php", "blogFeaturedPosts": { "tinySlider": { "autoplay": false, "autoplayTimeout": 3000, "mode": "gallery", "items": 1 } } };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/pro.min.js" id="cakecious-features-js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.min.js" id="flexslider-js"></script>
+    <script type="text/javascript" src="js/underscore.min.js" id="underscore-js"></script>
+    <script type="text/javascript" id="wp-util-js-extra">
+      /* <![CDATA[ */
+      var _wpUtilSettings = { "ajax": { "url": "\/demo1\/wp-admin\/admin-ajax.php" } };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/wp-util.min.js" id="wp-util-js"></script>
+    <script type="text/javascript" id="wc-add-to-cart-variation-js-extra">
+      /* <![CDATA[ */
+      var wc_add_to_cart_variation_params = { "wc_ajax_url": "\/demo1\/?wc-ajax=%%endpoint%%", "i18n_no_matching_variations_text": "Sorry, no products matched your selection. Please choose a different combination.", "i18n_make_a_selection_text": "Please select some product options before adding this product to your cart.", "i18n_unavailable_text": "Sorry, this product is unavailable. Please choose a different combination." };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/add-to-cart-variation.min.js" id="wc-add-to-cart-variation-js"></script>
+    <script type="text/javascript" src="js/pro-woocommerce.min.js" id="cakecious-pro-woocommerce-js"></script>
+    <script type="text/javascript" id="wpb_composer_front_js-js-extra">
+      /* <![CDATA[ */
+      var vcData = { "currentTheme": { "slug": "cakecious" } };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/js_composer_front.min.js" id="wpb_composer_front_js-js"></script>
+    <script id="rs-initialisation-scripts">
+      var tpj = jQuery;
+
+      var revapi2;
+
+      if (window.RS_MODULES === undefined) window.RS_MODULES = {};
+      if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+      RS_MODULES.modules["revslider21"] = {
+        once: RS_MODULES.modules["revslider21"] !== undefined ? RS_MODULES.modules["revslider21"].once : undefined, init: function () {
+          window.revapi2 = window.revapi2 === undefined || window.revapi2 === null || window.revapi2.length === 0 ? document.getElementById("rev_slider_2_1") : window.revapi2;
+          if (window.revapi2 === null || window.revapi2 === undefined || window.revapi2.length == 0) { window.revapi2initTry = window.revapi2initTry === undefined ? 0 : window.revapi2initTry + 1; if (window.revapi2initTry < 20) requestAnimationFrame(function () { RS_MODULES.modules["revslider21"].init() }); return; }
+          window.revapi2 = jQuery(window.revapi2);
+          if (window.revapi2.revolution == undefined) { revslider_showDoubleJqueryError("rev_slider_2_1"); return; }
+          revapi2.revolutionInit({
+            revapi: "revapi2",
+            DPR: "dpr",
+            sliderLayout: "fullwidth",
+            visibilityLevels: "1240,1024,778,480",
+            gridwidth: "1240,1024,778,480",
+            gridheight: "620,550,300,300",
+            lazyType: "smart",
+            spinner: "spinner0",
+            perspective: 600,
+            perspectiveType: "local",
+            editorheight: "620,550,300,300",
+            responsiveLevels: "1240,1024,778,480",
+            progressBar: { disableProgressBar: true },
+            navigation: {
+              mouseScrollNavigation: false,
+              wheelCallDelay: 1000,
+              onHoverStop: false,
+              arrows: {
+                enable: true,
+                tmp: "<div class=\"tp-title-wrap\">  	<div class=\"tp-arr-imgholder\"></div> </div>",
+                style: "zeus",
+                left: {
+
+                },
+                right: {
+
+                }
+              }
+            },
+            viewPort: {
+              global: true,
+              globalDist: "-200px",
+              enable: false,
+              visible_area: "20%"
+            },
+            fallbacks: {
+              disableFocusListener: true,
+              allowHTML5AutoPlayOnAndroid: true
+            },
+          });
+
+        }
+      } // End of RevInitScript
+
+      if (window.RS_MODULES.checkMinimal !== undefined) { window.RS_MODULES.checkMinimal(); };
+    </script>
   </body>
 </html>
