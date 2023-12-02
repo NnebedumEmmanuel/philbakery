@@ -101,7 +101,7 @@ const Carousal = () => {
                       data-frame_hover="c:#fff;bgc:#f195b2;boc:#ff7f45;bor:30px,30px,30px,30px;bos:solid;bow:0px,0px,0px,0px;oX:50;oY:50;sp:200;e:none;"
                       style={{zIndex:8, backgroundColor:"#ffffff",fontFamily:'Open Sans', cursor:"pointer",outline:"none",boxShadow:"none",boxSizing:"border-box",mozoxSizing:"border-box",webkitBoxSizing:"border-box"}}
                     >
-                      See the recipe
+                      Purchase Now
                     </rs-layer>
 
                     <rs-layer
@@ -196,7 +196,7 @@ const Carousal = () => {
                       data-frame_hover="c:#fff;bgc:#f195b2;boc:#ff7f45;bor:30px,30px,30px,30px;bos:solid;bow:0px,0px,0px,0px;oX:50;oY:50;sp:200;e:none;"
                       style={{zIndex:8,backgroundColor:"#ffffff",fontFamily:'Open Sans',cursor:"pointer", outline: "none",boxShadow:"none", boxSizing:"border-box",mozBoxSizing:"border-box",webkitBoxSizing:"border-box"}}
                     >
-                      See the recipe
+                      Purchase Now
                     </rs-layer>
 
                     <rs-layer
