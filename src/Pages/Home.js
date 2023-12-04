@@ -3,6 +3,12 @@ import Carousal from '../Component/Carousal';
 import Welcome from '../Sections/Welcome';
 import Featured from '../Sections/Featured';
 import Special from '../Sections/Special';
+import Services from '../Sections/Services';
+import Menu from '../Sections/Menu';
+import CustomerReview from '../Sections/CustomerReview';
+import Chefs from '../Sections/Chefs';
+import LatestBlog from '../Sections/LatestBlog';
+
 
 const Home = () => {
   return (
@@ -25,8 +31,18 @@ const Home = () => {
                 <div class="vc_row-full-width vc_clearfix"></div>
                 <Special />
                 <div class="vc_row-full-width vc_clearfix"></div>
+                <Services />
+                <div class="vc_row-full-width vc_clearfix"></div>
+                <Menu />
+                <div class="vc_row-full-width vc_clearfix"></div>
+                <CustomerReview />
+                <div class="vc_row-full-width vc_clearfix"></div>
+                <Chefs />
+                <div class="vc_row-full-width vc_clearfix"></div>
+                <LatestBlog />
+                <div class="vc_row-full-width vc_clearfix"></div>
 
-                
+
               </article>
             </div>
           </div>

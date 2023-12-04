@@ -6,6 +6,7 @@ import MainNav from '../Component/MainNav';
 import MobileHeader from '../Component/MobileHeader';
 import Footer from '../Sections/Footer';
 import { Outlet } from 'react-router-dom';
+import BackToTop from '../Component/BackToTop';
 
 const RootLayout = () => {
   return (
@@ -300,14 +301,16 @@ const RootLayout = () => {
           </header>
 
           <main>
-            <Outlet/>
+            <Outlet />
           </main>
 
           <footer>
-            <Footer/>
+            <Footer />
           </footer>
         </div>
       </div>
+     
+      <BackToTop />
     </body>
   );
 }
