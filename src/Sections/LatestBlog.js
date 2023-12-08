@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const LatestBlog = () => {
   return (
@@ -41,7 +42,7 @@ const LatestBlog = () => {
                         <div class="col-lg-6 col-md-6">
                           <div class="l_news_item">
                             <div class="l_news_img">
-                              <a href="https://cakeciouswp.bolvosites.com/demo1/2020/06/03/these-cases-are-simple-standard/">
+                              <Link to="/">
                                 <img
                                   width="370"
                                   height="200"
@@ -51,18 +52,17 @@ const LatestBlog = () => {
                                   decoding="async"
                                   loading="lazy"
                                 />
-                              </a>
+                              </Link>
                             </div>
                             <div class="l_news_text">
-                              <a href="https://cakeciouswp.bolvosites.com/demo1/2020/06/03/these-cases-are-simple-standard/">
+                              <Link to="/">
                                 <h5>June 3, 2020</h5>
-                              </a>
-                              <a
-                                href="https://cakeciouswp.bolvosites.com/demo1/2020/06/03/these-cases-are-simple-standard/"
-                                rel="bookmark"
-                              >
+                              </Link>
+                              
+                                 <Link to="/">
+                              
                                 <h4>These cases are simple Standard</h4>
-                              </a>{" "}
+                              </Link>{" "}
                               Lorem ipsum dolor sit amet, consectetur
                               adipisicing elit sed. Eiusmod tempor. incididu nt
                               ut labore et dolore magna aliqua. ...
@@ -73,7 +73,7 @@ const LatestBlog = () => {
                         <div class="col-lg-6 col-md-6">
                           <div class="l_news_item">
                             <div class="l_news_img">
-                              <a href="https://cakeciouswp.bolvosites.com/demo1/2020/05/14/incapable-of-drawing-a-stroke-image/">
+                           <Link to="/">
                                 <img
                                   width="370"
                                   height="200"
@@ -83,18 +83,15 @@ const LatestBlog = () => {
                                   decoding="async"
                                   loading="lazy"
                                 />
-                              </a>
+                              </Link>
                             </div>
                             <div class="l_news_text">
-                              <a href="https://cakeciouswp.bolvosites.com/demo1/2020/05/14/incapable-of-drawing-a-stroke-image/">
+                              <Link to="/">
                                 <h5>May 14, 2020</h5>
-                              </a>
-                              <a
-                                href="https://cakeciouswp.bolvosites.com/demo1/2020/05/14/incapable-of-drawing-a-stroke-image/"
-                                rel="bookmark"
-                              >
+                              </Link>
+                              <Link to="/">
                                 <h4>Incapable of drawing an Image</h4>
-                              </a>{" "}
+                              </Link>{" "}
                               Lorem ipsum dolor sit amet, consectetur
                               adipisicing elit sed. Eiusmod tempor. incididu nt
                               ut labore et dolore magna aliqua. ...

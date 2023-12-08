@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = (props) => {
   return (
-    <div
+    <section
       id="hero"
       class="cakecious-hero cakecious-section-default cakecious-text-align-center"
       role="region"
@@ -12,10 +12,10 @@ const Hero = (props) => {
         <div class="cakecious-wrapper">
           <div class="content-header left">
             <h1 class="entry-title">{props.title}</h1>
-          </div>{" "}
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

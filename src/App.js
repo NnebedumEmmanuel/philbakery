@@ -25,7 +25,7 @@ import RootLayout from "./Routes/RootLayout";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
-      <Route index element={<Home/>} />
+      <Route index element={<Home/>}  />
       <Route path="/About" element={<About />} />
       <Route path="/Blog" element={<Blog />} />
       <Route path="/ContactUs" element={<ContactUs />} />

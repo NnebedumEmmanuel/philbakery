@@ -14,10 +14,10 @@ const MobileHeader = () => {
 												<a href="https://cakeciouswp.bolvosites.com/demo1/" rel="home"
 													class="cakecious-menu-item-link">
 													<span class="cakecious-default-logo cakecious-logo"><span
-															class="cakecious-logo-image"><img width="183" height="32"
-																src="images/logo-2.png"
-																class="attachment-full size-full" alt=""
-																decoding="async" loading="lazy" /></span><span
+															class="cakecious-logo-image">
+															PhilBakery
+														
+														</span><span
 															class="screen-reader-text">Main demo</span></span>
 													<span class="cakecious-sticky-logo cakecious-logo"><span
 															class="cakecious-logo-image"><img width="183" height="32"

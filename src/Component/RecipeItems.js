@@ -10,7 +10,7 @@ const RecipeItems = () => {
               <h4>Double Chocolate Pie</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$8.99</span>
+                <span>₦8000</span>
               </p>
             </div>
 
@@ -18,7 +18,7 @@ const RecipeItems = () => {
               <h4>Zabaglione Cake</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$12.99</span>
+                <span>₦6000</span>
               </p>
             </div>
 
@@ -26,7 +26,7 @@ const RecipeItems = () => {
               <h4>Blueberry Muffin</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$8.99</span>
+                <span>₦10000</span>
               </p>
             </div>
 
@@ -34,7 +34,7 @@ const RecipeItems = () => {
               <h4>Box of Delight</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$7.99</span>
+                <span>₦2000</span>
               </p>
             </div>
 
@@ -42,7 +42,7 @@ const RecipeItems = () => {
               <h4>Classic French Croissant</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$6.99</span>
+                <span>₦85000</span>
               </p>
             </div>
 
@@ -50,7 +50,7 @@ const RecipeItems = () => {
               <h4>Macarons &amp; Tea</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$8.99</span>
+                <span>₦25000</span>
               </p>
             </div>
 
@@ -58,7 +58,7 @@ const RecipeItems = () => {
               <h4>Strawberry Sweet Cake</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$11.99</span>
+                <span>7000</span>
               </p>
             </div>
 
@@ -66,7 +66,7 @@ const RecipeItems = () => {
               <h4>Cupcake of Vanela</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$8.99</span>
+                <span>₦4000</span>
               </p>
             </div>
           </div>
@@ -76,50 +76,49 @@ const RecipeItems = () => {
         <div class="vc_column-inner">
           <div class="wpb_wrapper">
             <div class="discover_item">
-              <h4>Fried Egg Sandwich</h4>
+              <h4>Meat pie</h4>
               <p>
-                Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$8.99</span>
+                4 pieces at ₦2200 <span>₦600 </span>
               </p>
             </div>
 
             <div class="discover_item">
-              <h4>Multigrain Hot Cake</h4>
+              <h4>A plate of small chop</h4>
               <p>
-                Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$11.99</span>
+                Dougnut, chicken chops, cucumbers and Onion spice{" "}
+                <span>₦1000</span>
               </p>
             </div>
 
             <div class="discover_item">
-              <h4>Branch Special Cake</h4>
+              <h4>A tray of premium small chopse</h4>
               <p>
-                Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$8.99</span>
+                Susage Chops, chicken Chops, Dounut rolls,Fried chops{" "}
+                <span>₦40,000</span>
               </p>
             </div>
 
             <div class="discover_item">
-              <h4>Bialy Egg Sandwich with Cake</h4>
+              <h4>Food Tray</h4>
               <p>
-                Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$6.99</span>
+                Rice,Meat pie, Susage rolls, Customized Cake, Meat, Wine{" "}
+                <span>₦55,000</span>
               </p>
             </div>
 
             <div class="discover_item">
-              <h4>Strawberry Sweet Cake</h4>
+              <h4>Foil Cakes </h4>
               <p>
-                Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$8.99</span>
+                Chocolate puding, Chocolate jam cake
+                <span>₦1,200</span>
               </p>
             </div>
 
             <div class="discover_item">
-              <h4>Double Chocolate Pie</h4>
+              <h4>Low budget Bento cake</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$9.99</span>
+                <span>₦8000</span>
               </p>
             </div>
 
@@ -127,7 +126,7 @@ const RecipeItems = () => {
               <h4>Blueberry Muffin</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$8.99</span>
+                <span>₦8000</span>
               </p>
             </div>
 
@@ -135,7 +134,7 @@ const RecipeItems = () => {
               <h4>Classic Chocolate Cake</h4>
               <p>
                 Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                <span>$20.99</span>
+                <span>₦8000</span>
               </p>
             </div>
           </div>

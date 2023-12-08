@@ -21,26 +21,26 @@ const Menu = () => {
                 <div class="vc_column-inner">
                   <div class="wpb_wrapper">
                     <div class="discover_item">
-                      <h4>Double Chocolate Pie</h4>
+                      <h4>Food Tray</h4>
                       <p>
-                        Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                        <span>$8.99</span>
+                        Rice,Meat pie, Susage rolls, Customized Cake,
+                        Meat, Wine <span>₦55,000</span>
                       </p>
                     </div>
 
                     <div class="discover_item">
-                      <h4>Zabaglione Cake</h4>
+                      <h4>Foil Cakes </h4>
                       <p>
-                        Vanilla, fruite rasberry jam milk
-                        <span>$8.99</span>
+                        Chocolate puding, Chocolate jam cake
+                        <span>₦1,200</span>
                       </p>
                     </div>
 
                     <div class="discover_item">
-                      <h4>Strawberry Sweet Cake</h4>
+                      <h4>Low budget Bento cake</h4>
                       <p>
                         Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                        <span>$8.99</span>
+                        <span>₦8000</span>
                       </p>
                     </div>
                   </div>
@@ -50,26 +50,25 @@ const Menu = () => {
                 <div class="vc_column-inner">
                   <div class="wpb_wrapper">
                     <div class="discover_item">
-                      <h4>Fried Egg Sandwich</h4>
+                      <h4>Meat pie</h4>
                       <p>
-                        Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                        <span>4.66</span>
+                        4 pieces at ₦2200 <span>₦600 </span>
                       </p>
                     </div>
 
                     <div class="discover_item">
-                      <h4>Multigrain Hot Cake</h4>
+                      <h4>A plate of small chop</h4>
                       <p>
-                        Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                        <span>8.99</span>
+                        Dougnut, chicken chops, cucumbers and Onion spice{" "}
+                        <span>₦1000</span>
                       </p>
                     </div>
 
                     <div class="discover_item">
-                      <h4>Branch Special Cake</h4>
+                      <h4>A tray of premium small chopse</h4>
                       <p>
-                        Chocolate puding, vanilla, fruite rasberry jam milk{" "}
-                        <span>7.95</span>
+                        Susage Chops, chicken Chops, Dounut rolls,Fried chops{" "}
+                        <span>₦40,000</span>
                       </p>
                     </div>
                   </div>

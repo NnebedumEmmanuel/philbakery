@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Carousal from '../Component/Carousal';
 import Welcome from '../Sections/Welcome';
 import Featured from '../Sections/Featured';
@@ -8,10 +8,24 @@ import Menu from '../Sections/Menu';
 import CustomerReview from '../Sections/CustomerReview';
 import Chefs from '../Sections/Chefs';
 import LatestBlog from '../Sections/LatestBlog';
+import { useLocation } from 'react-router-dom';
+
 
 
 const Home = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.state && location.state.reload) {
+      window.location.reload();
+    }
+  }, [location]);
+      
+ 
+
   return (
+    
+    
     <div
       id="content"
       className="cakecious-content site-content cakecious-section cakecious-section-default cakecious-content-layout-right-sidebar"
@@ -52,4 +66,4 @@ const Home = () => {
   );
 }
 
-export default Home
+export default Home;

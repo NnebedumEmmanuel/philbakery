@@ -21,13 +21,13 @@ const Footer = () => {
             <div class="cakecious-footer-widgets-bar-row cakecious-footer-widgets-bar-columns-4">
               <div class="cakecious-footer-widgets-bar-column-1 cakecious-footer-widgets-bar-column">
                 <div id="media_image-1" class="widget widget_media_image">
-                  <h1 className=''> Philcake</h1>
+                  <h1 className="text-light"> Philcake</h1>
                 </div>
                 <div id="text-2" class="widget widget_text">
                   <div class="textwidget">
                     <p>
-                      Cakecious is a WordPress theme for Bakery and related
-                      businesses.
+                      Philbakery is a Bakery Business in Owrri imo state, with
+                      the Zeal and passion to satisfy your Bakery needs.
                     </p>
                   </div>
                 </div>
@@ -112,8 +112,8 @@ const Footer = () => {
                   <div class="textwidget custom-html-widget">
                     <h4>(1800) 574 9687</h4>
                     <p>
-                      Cakecious Store <br />
-                      256, baker Street, New York, 5245
+                      Philbakery Store <br />
+                      256, baker Street, owerri, 5245
                     </p>
                     <h5>
                       <a
@@ -121,7 +121,7 @@ const Footer = () => {
                         class="__cf_email__"
                         data-cfemail="9af9fbf1fff9f3f5efe9fefff7f5dafff7fbf3f6b4f9f5f7"
                       >
-                        [email�&nbsp;protected]
+                        [PhilBakery@gmail.com&nbsp;protected]
                       </a>
                     </h5>
                   </div>
@@ -141,18 +141,20 @@ const Footer = () => {
               <div class="cakecious-footer-bottom-bar-left cakecious-footer-bottom-bar-column">
                 <div class="cakecious-footer-copyright">
                   <div class="cakecious-footer-copyright-content">
-                    Cakecious{" "}
-                    <a href="https://cakeciouswp.bolvosites.com/demo1">
-                      Main demo
-                    </a>{" "}
-                    © 2023 All Rights Reserved.
+                    Philbakery{" "}
+                    <a href="https://cakeciouswp.bolvosites.com/demo1"></a> ©
+                    2023 All Rights Reserved.
                   </div>
                 </div>
               </div>
               <div class="cakecious-footer-bottom-bar-right cakecious-footer-bottom-bar-column">
                 <div class="cakecious-footer-html-1">
                   <div>
-                    Developed by <a href="https://bolvo.com">Bolvo.com</a>.{" "}
+                    Developed by{" "}
+                    <a href="https://nnebedum-emmanuel.vercel.app/?vercelToolbarCode=v7GnK6GXFKWXon7">
+                      EmmaDev.com
+                    </a>
+                    .{" "}
                   </div>
                 </div>
               </div>
