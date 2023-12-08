@@ -51,7 +51,7 @@ const Chefs = () => {
                           </li>
                         </ul>
                       </div>
-                      <h4>Michale Joe</h4>
+                      <h4>Phil cakes</h4>
                       <h5>Expert in Cake Making</h5>
                     </div>
                   </div>
@@ -81,7 +81,7 @@ const Chefs = () => {
                           </li>
                         </ul>
                       </div>
-                      <h4>Roger B.</h4>
+                      <h4>Phil cakes.</h4>
                       <h5>Expert in Sandwich Making</h5>
                     </div>
                   </div>
@@ -111,7 +111,7 @@ const Chefs = () => {
                           </li>
                         </ul>
                       </div>
-                      <h4>Mark J.</h4>
+                      <h4>Phil cakes.</h4>
                       <h5>Expert in Pizzas</h5>
                     </div>
                   </div>
